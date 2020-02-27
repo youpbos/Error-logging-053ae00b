@@ -26,7 +26,7 @@
         }
     } catch (Exception $e) {
         error_log("Gebruiker heeft een verkeet getal op gegeven!", 3, "error.php");
-        echo "<h3>'fout melding gevonden': " . $e->getMessage(), "\n" . "</h3>";
+        echo "'fout melding gevonden': " . $e->getMessage(), "\n";
     }
     ?>
 </body>
